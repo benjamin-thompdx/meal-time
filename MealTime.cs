@@ -4,8 +4,9 @@ class MealTime
 {
   static void AskWhatYouAteFor(string meal)
   {
-   Console.WriteLine("What did you eat for " + meal + "?"); 
+    Console.WriteLine("What did you eat for " + meal + "?");
   }
+
   static void Main()
   {
     AskWhatYouAteFor("breakfast");
